@@ -1,0 +1,41 @@
+title: ConsultantDev
+description: SEO-first websites with strict CSP
+image: "/assets/images/ebiya-logo.webp"
+
+url: "https://consultant.ebiya.sg/" # 🔴 REQUIRED — fill before production
+baseurl: "" # 🔴 Leave empty unless using sub-repo
+
+markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+business:
+  name: "Ebiya.sg"
+  url: "https://consultant.ebiya.sg/"
+  image: "/assets/imgages/ebiya-logo.webp" # optional
+  telephone: "+65 89002228"
+  email: "bennyyuen@consultant.com"
+  priceRange: "$$$"
+
+  address:
+    streetAddress: "55 Changi Road #b1-01"
+    addressLocality: "Singapore"
+    addressRegion: "SG"
+    postalCode: "419709"
+    addressCountry: "SG"
+
+# =========================
+# 🔌 PLUGINS (SAFE FOR GH PAGES)
+# =========================
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whatsapp:
+  enabled: true
+  phone: "6589002228"
+
+exclude:
+  - README.md
