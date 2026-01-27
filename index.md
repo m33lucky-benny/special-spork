@@ -4,7 +4,7 @@ title: SEO-First Websites Google Can Understand
 description: We design and maintain SEO-first websites that Google can easily crawl, index, and understand — built with clean structure, performance, and long-term growth in mind.
 ---
 
-<section class="index-hero center container">
+<div class="index-hero center container">
   <p class="index-intro">
     We build and maintain SEO-first websites with clean structure, strong
     technical foundations, and content Google can reliably crawl, index,
@@ -20,20 +20,11 @@ description: We design and maintain SEO-first websites that Google can easily cr
     </a>
   
   </div>
-<!-- 
-  <div class="index-actions">
-    <a href="/contact/" class="button button--primary">
-      Request a quote
-    </a>
-    <a href="/about/" class="button button--secondary">
-      View services
-    </a>
-  </div> -->
-</section>
+</div>
 
 <hr />
 
-<section class="container">
+<div class="container">
   <h2 id="services">Services</h2>
 
   <ul class="service-list">
@@ -71,4 +62,4 @@ description: We design and maintain SEO-first websites that Google can easily cr
     <li>Implementation and validation</li>
     <li>Tracking, monitoring, and iteration</li>
   </ol>
-</section>
+</div>

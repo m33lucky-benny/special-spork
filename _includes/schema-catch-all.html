@@ -9,10 +9,8 @@
         "url": {{ site.url | jsonify }},
         "email": {{ site.business.email | jsonify }},
         "logo": {{ site.business.image | absolute_url | jsonify }},
-        "sameAs": [
-          {{ site.business.instagram | jsonify }},
-          {{ site.business.map | jsonify }}
-        ]
+        "sameAs": {{ site.business.sameAs | jsonify }}
+ 
       },
       {
         "@type": "LocalBusiness",
