@@ -7,11 +7,11 @@
         "@id": "{{ site.url }}/#organization",
         "name": {{ site.business.name | jsonify }},
         "url": {{ site.url | jsonify }},
-        "email": {{ site.social.email | jsonify }},
+        "email": {{ site.business.email | jsonify }},
         "logo": {{ site.business.image | absolute_url | jsonify }},
         "sameAs": [
-          {{ site.social.instagram | jsonify }},
-          {{ site.social.map | jsonify }}
+          {{ site.business.instagram | jsonify }},
+          {{ site.business.map | jsonify }}
         ]
       },
       {
