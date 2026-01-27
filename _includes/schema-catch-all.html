@@ -21,7 +21,7 @@
         "url": {{ site.url | jsonify }},
         "image": {{ site.business.image | absolute_url | jsonify }},
         "telephone": {{ site.business.telephone | jsonify }},
-        "email": {{ site.social.email | jsonify }},
+        "email": {{ site.business.email | jsonify }},
         "priceRange": {{ site.business.priceRange | jsonify }},
         "address": {
           "@type": "PostalAddress",
