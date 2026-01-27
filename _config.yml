@@ -21,7 +21,7 @@ sass:
 # 🏢 BUSINESS INFO (Schema + SEO)
 # =========================
 business:
-  name: "Ebiya Consulting"
+  name: "Ebiya.SG"
   url: "https://consultant.ebiya.sg"
   image: "/assets/images/ebiya-logo.webp"
   telephone: "+65 8900 2228"
