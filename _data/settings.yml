@@ -7,6 +7,8 @@ social:
 nav_items:
   - title: Services
     url: /about
+  - title: Work
+    url: /work
   - title: Blog
     url: /blog
   - title: Contact Us

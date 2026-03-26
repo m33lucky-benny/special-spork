@@ -1,0 +1,129 @@
+.blog-index {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+/* Header */
+.blog-header {
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+}
+
+.blog-intro {
+  font-size: 1.05rem;
+  color: var(--color-muted);
+  margin-bottom: 0.25rem;
+}
+
+.blog-tagline {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+/* Post list */
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Post card */
+.post-card {
+  background: var(--color-surface-1);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.75rem 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    border-color: $primary;
+    box-shadow: 0 0 16px rgba($primary, 0.35);
+    transform: translateY(-2px);
+  }
+}
+
+.post-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+
+  .post-link {
+    color: var(--color-text);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+}
+
+/* Meta row */
+.post-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-bottom: 0.9rem;
+}
+
+.post-categories {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.category {
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  color: var(--color-muted);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Excerpt */
+.post-excerpt {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1.1rem;
+}
+
+/* Read more */
+.read-more {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .blog-index {
+    padding: 1.25rem 1rem 3rem;
+  }
+
+  .blog-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .post-card {
+    padding: 1.25rem 1.25rem;
+  }
+}

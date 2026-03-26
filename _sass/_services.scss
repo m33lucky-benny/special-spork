@@ -143,6 +143,19 @@
     color: $muted;
   }
 
+.work-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.work-new {
+  border-color: rgba($primary-2, 0.4);
+
+  &:hover {
+    border-color: $primary-2;
+    box-shadow: 0 0 16px rgba($primary-2, 0.4);
+  }
+}
+
 .fix {
   display: flex;
   justify-content: center;
